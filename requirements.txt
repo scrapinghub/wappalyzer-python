@@ -1,0 +1,3 @@
+requests
+PyV8
+lxml
