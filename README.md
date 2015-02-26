@@ -1,4 +1,6 @@
 # wappalyzer-python
+![pypi badge](https://badge.fury.io/py/scrapy-streamitem.png)
+
 Python wrapper for [Wappalizer](https://wappalyzer.com/) (utility that uncovers the technologies used on websites)
 
 # How to use it
@@ -68,17 +70,23 @@ Or update them individually:
 * [PyV8](https://github.com/okoye/PyV8)
 * [lxml](https://github.com/lxml/lxml)
 
+Note for macos users: If you have problems installing PyV8 you can use [PyV8-OS-X](https://github.com/brokenseal/PyV8-OS-X):
+```
+pip install -e git://github.com/brokenseal/PyV8-OS-X#egg=pyv8
+```
+
 # Install
 
 Using setup:
 
 ```python
->>> python setup.py install
+python setup.py install
 ```
 
 Using pypi:
 
 ```python
->>> pip install wappalyzer-python
+pip install wappalyzer-python
 ```
+
 
