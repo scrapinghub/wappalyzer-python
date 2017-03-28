@@ -3,7 +3,7 @@
 
 Python wrapper for [Wappalizer](https://wappalyzer.com/) (utility that uncovers the technologies used on websites)
 
-** Warning: this package is not maintained anymore. **
+**Warning: this package is not maintained anymore.**
 
 Scrapinghub and Javier Casas, the original author, have no plans
 to support wappalyzer-python in the foreseeable future
