@@ -1,7 +1,17 @@
-# wappalyzer-python
+# wappalyzer-python -- UNMAINTAINED
 ![pypi badge](https://badge.fury.io/py/scrapy-streamitem.png)
 
 Python wrapper for [Wappalizer](https://wappalyzer.com/) (utility that uncovers the technologies used on websites)
+
+** Warning: this package is not maintained anymore. **
+
+Scrapinghub and Javier Casas, the original author, have no plans
+to support wappalyzer-python in the foreseeable future
+(this includes fixing bugs, supporting upgraded dependencies like PyV8 etc.)
+
+If you are interested in continuing the work, please get in touch
+via opensource@scrapinghub.com so that we can discuss transferring ownership
+of this repository.
 
 # How to use it
 
@@ -10,12 +20,12 @@ Python wrapper for [Wappalizer](https://wappalyzer.com/) (utility that uncovers 
 >>> w = Wappalyzer()
 
 >>> w.analyze('http://wikipedia.org')
-{u'Apache': {u'confidence': 100, u'version': u'', u'categories': [u'web-servers']}, 
+{u'Apache': {u'confidence': 100, u'version': u'', u'categories': [u'web-servers']},
 u'Varnish': {u'confidence': 100, u'version': u'', u'categories': [u'cache-tools']}}
 
 >>> w.analyze('http://tripadvisor.com')
-{u'Apache': {u'confidence': 100, u'version': u'', u'categories': [u'web-servers']}, 
-u'Google Analytics': {u'confidence': 100, u'version': u'', u'categories': [u'analytics']}, 
+{u'Apache': {u'confidence': 100, u'version': u'', u'categories': [u'web-servers']},
+u'Google Analytics': {u'confidence': 100, u'version': u'', u'categories': [u'analytics']},
 u'comScore': {u'confidence': 100, u'version': u'', u'categories': [u'analytics']}}
 
 >>> w.analyze('http://facebook.com')
@@ -39,7 +49,7 @@ Apps and Categories are available as dict objects:
 u'wallet\\.google\\.com']}, u'Lockerz Share': ...}
 
 >>> w.categories
-{u'42': u'tag-managers', u'48': u'network-storage', u'43': u'paywalls', u'49': u'feed-readers', u'24': 
+{u'42': u'tag-managers', u'48': u'network-storage', u'43': u'paywalls', u'49': u'feed-readers', u'24':
 u'rich-text-editors', u'25': u'javascript-graphics', u'26': u'mobile-frameworks', ...}
 
 ```
